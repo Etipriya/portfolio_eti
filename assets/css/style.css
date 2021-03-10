@@ -1,3 +1,36 @@
 * {
   margin: auto;
 }
+
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(231, 61, 126, 0.137);
+  color: rgb(14, 11, 11);
+}
+.nav-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-container li{
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px;
+}
+
+.top {
+  -moz-text-size-adjust: auto;
+}
+
+.about me {
+  width: 10%;
+  text-align: left;
+}
+
+.float left {
+  size: 2px;
+  width: 20";
+}
