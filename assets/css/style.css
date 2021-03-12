@@ -20,6 +20,7 @@
   list-style-type: none;
   padding: 5px;
   margin: 10px;
+  display: inline-block;
 }
 
 .about me {
@@ -33,13 +34,25 @@
 }
 
 .linkedin{
-  width: 5px;
-  image-orientation: from-image;
+  width: 40px;
+  padding: 0px;
+  shape-image-threshold: 30px;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
 }
 
 @media screen and (max-width:768px){
   .nav-holder{
   flex-direction: column;
   align-content: center;
+  }
+}
+
+@media screen and (max-width:768px){
+  .nav-holder li{
+    text-align: center;
   }
 }
