@@ -4,22 +4,23 @@
 
 .header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: rgba(41, 2, 17, 0.692);
+  font-family:"Times New Roman";
+  background-color: rgba(145, 3, 57, 0.692);
   color: rgb(14, 11, 11);
+  overflow: hidden;
 }
 
-.nav-container{
+.nav-holder{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.nav-container li{
+.nav-holder li{
   list-style-type: none;
   padding: 5px;
   margin: 10px;
+  color: black;
 }
 
 .top {
