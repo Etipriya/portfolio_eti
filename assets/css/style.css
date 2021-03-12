@@ -4,16 +4,17 @@
 
 .header {
   padding: 20px;
-  font-family:"Times New Roman";
+  font-family:"Arial";
   background-color: rgba(145, 3, 57, 0.692);
   color: rgb(14, 11, 11);
   overflow: hidden;
 }
 
-.nav-holder{
+.nav-holder ul{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: black;
 }
 
 .nav-holder li{
@@ -21,10 +22,7 @@
   padding: 5px;
   margin: 10px;
   color: black;
-}
-
-.top {
-  -moz-text-size-adjust: auto;
+  
 }
 
 .about me {
@@ -35,4 +33,11 @@
 .float left {
   size: 2px;
   width: 20";
+}
+
+@media screen and (max-width:768px){
+  .nav-holder{
+  flex-direction: column;
+  align-content: center;
+  }
 }
