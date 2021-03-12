@@ -39,7 +39,7 @@
   shape-image-threshold: 30px;
 }
 
-a:hover {
+a:hover .nav-holder{
   border-bottom: 1px solid;
   background: #CDFEAA;
 }
