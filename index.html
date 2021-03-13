@@ -14,15 +14,18 @@
       <!--Introduced nav bar-->
       <nav>
         <h1>Eti Priya is cool !!</h1>
-        <ul class="nav holder">
+        <ul class="nav-holder">
           <li>
-            <a href="#Home">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="#About me">About me</a>
+            <a href="#about-me">About me</a>
           </li>
           <li>
-            <a href="#Contact me">Contact me</a>
+            <a href="#my-projects">My Projects</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact me</a>
           </li>
         </ul>
       </nav>
@@ -47,20 +50,29 @@
       </section>
 
       <!-- Projects -->
-      <div class="project-container">
-        <!-- Project 1 -->
-        <div class="card">
-          <!-- card image -->
-          <div class="card-image-container">
-            <img src="./assets/images/king_card.jpg" alt="card-image" />
+      <div class="projects" id="my-projects">
+        <h3 class="project-title">My Projects</h3>
+        <div class="project-container">
+          <!-- Project 1 -->
+          <div class="card">
+            <!-- card image -->
+            <div class="card-image-container">
+              <a href="https://etipriya.github.io/homework_1/" target="_blank">
+                <img
+                  src="assets\images\screencapture-etipriya-github-io-homework-1-2021-03-07-22_04_33 (1).png"
+                  alt="card-image"
+                />
+              </a>
+            </div>
+            <!-- Project details -->
+            <div class="card-info-container"></div>
           </div>
-          <!-- Project details -->
-          <div class="card-info-container"></div>
         </div>
       </div>
 
-      <div id="contact me" class="contact-me">
-        <p>
+      <div id="contact-me" class="contact-me">
+        <h4 class="contact-me-details"></h4>
+        <div>
           <!-- Added a link to Linkedin Profile -->
           Contact Me: Linkedin Profile
           <a link href="https://www.linkedin.com/in/eti-priya-mahendru/">
@@ -70,7 +82,7 @@
               alt="linkedIn profile"
             />
           </a>
-        </p>
+        </div>
       </div>
     </main>
   </body>
