@@ -4,7 +4,7 @@
 
 .header {
   padding: 20px;
-  font-family:"Arial";
+  font-family: "Arial";
   background-color: rgba(145, 3, 57, 0.692);
   color: rgb(14, 11, 11);
   overflow: hidden;
@@ -16,43 +16,54 @@
   color: black;
 }
 
-.nav-holder li{
+.nav-holder li {
   list-style-type: none;
   padding: 5px;
   margin: 10px;
   display: inline-block;
 }
 
-.about me {
-  width: 10%;
+.about-me-container h3 {
+  margin: 20px;
+  padding: 10px;
+  width: 5%;
   text-align: left;
 }
 
-.float left {
-  size: 2px;
-  width: 5px";
+.about-me-container img {
+  margin: 5%;
+  width: 5px;
+  height: 5px;
+  border-radius: 10%;
 }
 
-.linkedin{
+.about-me-text {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 5%;
+  width: 50%;
+}
+
+.linkedin {
   width: 40px;
   padding: 0px;
   shape-image-threshold: 30px;
 }
 
-a:hover .nav-holder{
+a:hover .nav-holder {
   border-bottom: 1px solid;
-  background: #CDFEAA;
+  background: #cdfeaa;
 }
 
-@media screen and (max-width:768px){
-  .nav-holder{
-  flex-direction: column;
-  align-content: center;
+@media screen and (max-width: 768px) {
+  .nav-holder {
+    flex-direction: column;
+    align-content: center;
   }
 }
 
-@media screen and (max-width:768px){
-  .nav-holder li{
+@media screen and (max-width: 768px) {
+  .nav-holder li {
     text-align: center;
   }
 }
