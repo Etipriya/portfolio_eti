@@ -24,17 +24,16 @@
 }
 
 .about-me-container h3 {
-  margin: 20px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   width: 5%;
-  text-align: left;
+  text-align: center;
 }
 
 .about-me-container img {
-  margin: 5%;
-  width: 5px;
-  height: 5px;
-  border-radius: 10%;
+  margin: 5px;
+  width: 70px;
+  height: 70px;
 }
 
 .about-me-text {
