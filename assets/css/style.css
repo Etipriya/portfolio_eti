@@ -23,7 +23,10 @@
   display: inline-block;
 }
 
-.about-me-container h3 {
+.about-me-container {
+  background-color: peachpuff;
+}
+.about-me-container h2 {
   margin: 5px;
   padding: 5px;
   text-align: center;
@@ -37,7 +40,7 @@
 
 .about-me-image img {
   object-fit: contain;
-  width: ;
+  width: 50%;
 }
 
 .about-me-text {
@@ -47,10 +50,16 @@
   border: 1px solid #1a1a1a;
 }
 
+.contact-me {
+  background-attachment: fixed;
+  background-color: peachpuff;
+}
+
 .linkedin {
   width: 40px;
   padding: 0px;
   shape-image-threshold: 30px;
+  background-color: indigo;
 }
 
 a:hover .nav-holder {
