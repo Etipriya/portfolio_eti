@@ -12,7 +12,6 @@
 
 .nav-holder {
   display: flex;
-  /* justify-content: center; */
   color: black;
   float: right;
 }
@@ -100,9 +99,15 @@ a:hover {
 .contact-me {
   background-attachment: fixed;
   background-color: peachpuff;
+  border: 1px solid #1a1a1a;
+  font-size: 1.5rem;
+  padding: 5px;
+  text-size-adjust: large;
 }
 
 .contact-me-details {
+  font-style: italic;
+  text-underline-position: auto;
 }
 
 .linkedin {
