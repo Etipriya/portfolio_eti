@@ -122,14 +122,14 @@ a:hover {
   background-color: indigo;
 }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 992px) {
   .nav-holder {
     flex-direction: column;
     align-content: center;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .nav-holder li {
     text-align: center;
   }
