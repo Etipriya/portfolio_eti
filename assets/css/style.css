@@ -63,16 +63,20 @@ a:hover {
 }
 
 .projects {
-}
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding-bottom: 5px;
   background-color: chocolate;
 }
 
 .project-title {
   text-align: center;
+  font-size: 30px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: chocolate;
 }
 
 .card {
