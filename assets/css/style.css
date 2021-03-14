@@ -113,13 +113,21 @@ a:hover {
 .contact-me-details {
   font-style: italic;
   text-underline-position: auto;
+  display: flex;
 }
 
 .linkedin {
   width: 40px;
   padding: 0px;
   shape-image-threshold: 30px;
-  background-color: indigo;
+  background-color: rgb(220, 190, 241);
+}
+
+.github {
+  width: 40px;
+  padding: 0px;
+  shape-image-threshold: 30px;
+  background-color: rgb(217, 183, 241);
 }
 
 @media screen and (max-width: 992px) {
