@@ -50,8 +50,8 @@ a:hover {
 
 .about-me-image img {
   object-fit: contain;
-  width: 100%;
-  height: 50%;
+  width: 90%;
+  height: 40%;
   align-self: center;
 }
 
@@ -83,7 +83,12 @@ a:hover {
   border: 1px solid black;
   width: 27%;
   margin-top: 5px;
+  text-align: center;
   object-fit: contain;
+}
+
+.h2 {
+  text-justify: inherit;
 }
 
 .card-image-container {
