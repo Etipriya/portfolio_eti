@@ -26,7 +26,7 @@ https://etipriya.github.io/portfolio_eti/
 
 As this website was created from start, enjoy the screenshot !!
 
-![image](./assets/images/portfolio.png)
+![image](./assets/images/portfolio-new.png)
 
 ## Link to deployed application
 
