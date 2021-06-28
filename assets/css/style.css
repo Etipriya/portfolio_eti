@@ -24,7 +24,7 @@
 }
 
 a {
-  color: black;
+  color: black !important;
 }
 
 a:hover {
