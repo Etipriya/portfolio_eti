@@ -82,7 +82,9 @@ a:hover {
 .card {
   border: 1px solid black;
   width: 27%;
-  margin-top: 5px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  margin: 10px;
   text-align: center;
   object-fit: contain;
 }
